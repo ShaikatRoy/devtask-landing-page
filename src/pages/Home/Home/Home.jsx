@@ -8,7 +8,7 @@ const Home = () => {
     <p className="text-gray-600 mb-4 text-left ">Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Magni, dolor?</p>
     </div>
     <Link to='/login' className="btn btn-active btn-primary mb-2 w-full sm:w-4/12">Create Account</Link>
-    <button className="btn btn-active mb-2 w-full sm:w-4/12">Already Registered? Login</button>
+    <Link to='/register' className="btn btn-active mb-2 w-full sm:w-4/12">Already Registered? Login</Link>
 </div>
 
 
