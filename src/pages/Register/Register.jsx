@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Register = () => {
     return (
       <div className="bg-gray-100 h-screen flex flex-col justify-start sm:items-center px-2 sm:justify-center">
@@ -49,7 +51,7 @@ const Register = () => {
             </div>
           </div>
         </div>
-        <button className="btn btn-active btn-primary mb-2 w-full sm:w-5/12 mt-10">Create Account</button>
+        <Link to="/profile" className="btn btn-active btn-primary mb-2 w-full sm:w-5/12 mt-10">Create Account</Link>
       </div>
     );
   };
